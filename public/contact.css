@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: cursive;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #31333e;
+  font-size: 14px;
+}
+.main-header {
+  box-shadow: none;
+
+  /* position: fixed; */
+
+  z-index: 1;
+
+  width: 100%;
+
+  top: 0;
+
+  left: 0;
+
+  background-color: #fff;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-menu {
+  display: flex;
+
+  justify-content: space-around;
+}
+.header-logo {
+  padding: 10px;
+  margin-right: 80px;
+}
+.header-menu {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  font-size: 16px;
+  padding-right: 15px;
+  display: inline-block;
+}
+.menu-list:hover {
+  cursor: pointer;
+  color: #ff7642;
+}
+
+/* .phone-banner {
+    background-image: url("https://www.erisn.com/wp-content/uploads/2019/07/Mobile-v2.jpeg");
+    height: 600px;
+    width: 1300px;
+  } */
+.mobile-title {
+  color: white;
+  font-weight: 600;
+  font-size: 27px;
+  text-transform: uppercase;
+  padding: 20px;
+
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.banner {
+  display: flex;
+}
+.img {
+  width: 40%;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+/* .banner-img {
+  width: 400px;
+  height: 400px;
+} */
+.content {
+    padding: 40px;
+  height: 400px;
+  background-color: #ff7642;
+}
+/* .img-phone {
+    font-size: 25px;
+    color: #31333e;
+    display: block;
+    width: 60%;
+    line-height: 1.6;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  } */
+/* .btn-group {
+    padding-left: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 50%;
+  } */
+/* .btn {
+    background-color: white;
+    color: #31333e;
+    border: transparent;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #31333e;
+    color: white;
+  }
+   */
+.custom_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #31333e;
+  font-size: 30px;
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  color: #31333e;
+}
