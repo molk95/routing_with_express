@@ -72,6 +72,7 @@ body {
 }
 main {
   background-color: #ff7642;
+  height: 480px;
 }
 /* .phone-banner {
   background-image: url("https://www.erisn.com/wp-content/uploads/2019/07/Mobile-v2.jpeg");

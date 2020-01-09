@@ -3,7 +3,7 @@ const app = express();
 let hour_now = new Date().getHours();
 
 app.get('/', function(req, res) {
-  if ( (hour_now>8)&&(hour_now<17) ) res.sendFile(__dirname + '/public/home.html');
+  if ( (hour_now>8)&&(hour_now<10) ) res.sendFile(__dirname + '/public/home.html');
   else res.sendFile(__dirname + '/public/outOfService.html');
 })
 
